@@ -11,3 +11,9 @@ I know that there was a team in Denmark that was using it for their style guide 
 When I have a look at tools such as Eleventy, I always feel that they do too much without thinking about the size of the package or they support too much features when it is not necessary. Why give the developer so many options to choose from when it is very simple to have the developer use whatever they need by installing the package and having it integrate with the build tool. I want the next version of Hydrogen to be as streamlined as possible so that it can be integrated into any workflow while providing an entire ecosystem of plugins that can extend the functionality of the core tool.
 
 The core tool should be a programmatic API without a CLI tool that generates the files by consuming a series of files and then spiting them out into HTML files.
+
+## 14 July
+
+### 15:45
+
+I have been thinking about using the Node.js `cluster` module to spawn several Node.js processes in order to distribute the read/write operations of the templates and output files in order to build process more efficient and faster. I have had a look at several options such as the `child_process`, `cluster` and `worker_threads` modules but based on my research it seems as if the best one to use given the context of the project itself is the `cluster` module.
