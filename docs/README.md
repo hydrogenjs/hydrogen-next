@@ -12,7 +12,7 @@ When I have a look at tools such as Eleventy, I always feel that they do too muc
 
 The core tool should be a programmatic API without a CLI tool that generates the files by consuming a series of files and then spiting them out into HTML files.
 
-## 14 July
+## 14 July 2024
 
 ### 15:45
 
